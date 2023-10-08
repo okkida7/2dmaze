@@ -361,6 +361,7 @@
 -r:"Assets/Packages/Microsoft.Extensions.Configuration.Abstractions.2.2.0/lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll"
 -r:"Assets/Packages/Microsoft.Extensions.Configuration.EnvironmentVariables.2.2.4/lib/netstandard2.0/Microsoft.Extensions.Configuration.EnvironmentVariables.dll"
 -r:"Assets/Packages/Microsoft.Extensions.Configuration.FileExtensions.2.2.0/lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll"
+-r:"Assets/Packages/Microsoft.Extensions.DependencyInjection.7.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll"
 -r:"Assets/Packages/Microsoft.Extensions.DependencyInjection.Abstractions.7.0.0/lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll"
 -r:"Assets/Packages/Microsoft.Extensions.DependencyModel.2.1.0/lib/netstandard1.6/Microsoft.Extensions.DependencyModel.dll"
 -r:"Assets/Packages/Microsoft.Extensions.FileProviders.Abstractions.2.2.0/lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll"
