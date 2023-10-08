@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML.CpuMath</id>
+    <version>2.0.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>Microsoft.ML.CpuMath contains optimized math routines for ML.NET.</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning</tags>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/machinelearning" commit="31d767a1dd32664580783ddffcd7da4905db4178" />
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Memory" version="4.5.3" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

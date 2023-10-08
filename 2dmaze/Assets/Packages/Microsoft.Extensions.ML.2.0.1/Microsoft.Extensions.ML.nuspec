@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.Extensions.ML</id>
+    <version>2.0.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>An integration package for ML.NET models on scalable web apps and services.</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning</tags>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/machinelearning" commit="31d767a1dd32664580783ddffcd7da4905db4178" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.ML" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.1.0" include="All" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.1.0" include="All" />
+        <dependency id="Microsoft.Extensions.ObjectPool" version="2.1.0" include="All" />
+        <dependency id="Microsoft.Extensions.Options" version="2.1.0" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

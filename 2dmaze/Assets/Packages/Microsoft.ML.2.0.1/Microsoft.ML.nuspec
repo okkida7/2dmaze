@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Microsoft.ML</id>
+    <version>2.0.1</version>
+    <authors>Microsoft</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>mlnetlogo.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://dot.net/ml</projectUrl>
+    <description>ML.NET is a cross-platform open-source machine learning framework which makes machine learning accessible to .NET developers.</description>
+    <releaseNotes>https://aka.ms/mlnetreleasenotes</releaseNotes>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <tags>ML.NET ML Machine Learning</tags>
+    <serviceable>true</serviceable>
+    <repository type="git" url="https://github.com/dotnet/machinelearning" commit="31d767a1dd32664580783ddffcd7da4905db4178" />
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Microsoft.ML.CpuMath" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.ML.DataView" version="2.0.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.1" include="All" />
+        <dependency id="System.CodeDom" version="4.5.0" include="All" />
+        <dependency id="System.Collections.Immutable" version="1.5.0" include="All" />
+        <dependency id="System.Memory" version="4.5.3" include="All" />
+        <dependency id="System.Reflection.Emit.Lightweight" version="4.3.0" include="All" />
+        <dependency id="System.Threading.Channels" version="4.7.1" include="All" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
