@@ -567,9 +567,11 @@
 "Assets/BinaryClassification_Sentiment_Razor/SentimentRazorML.Model/ConsumeModel.cs"
 "Assets/BinaryClassification_Sentiment_Razor/SentimentRazorML.Model/ModelInput.cs"
 "Assets/BinaryClassification_Sentiment_Razor/SentimentRazorML.Model/ModelOutput.cs"
+"Assets/Scripts/CameraFollow.cs"
 "Assets/Scripts/MazeCellObject.cs"
 "Assets/Scripts/MazeGenerator.cs"
 "Assets/Scripts/MazeRenderer.cs"
+"Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SentimentAnalysisClient.cs"
 -langversion:9.0
 
