@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59521
+60669
 Successfully changed project path to: /Users/alexisjin/Documents/GitHub/2dmaze/2dmaze/2dmaze
 /Users/alexisjin/Documents/GitHub/2dmaze/2dmaze/2dmaze
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,12 +54,12 @@ Successfully changed project path to: /Users/alexisjin/Documents/GitHub/2dmaze/2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8079971072] Host "[IP] 192.168.1.154 [Port] 0 [Flags] 2 [Guid] 533463412 [EditorId] 533463412 [Version] 1048832 [Id] OSXEditor(0,Alexiss-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8079971072] Host "[IP] 192.168.1.154 [Port] 0 [Flags] 2 [Guid] 3289160397 [EditorId] 3289160397 [Version] 1048832 [Id] OSXEditor(0,Alexiss-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [8079971072] Host "[IP] 192.168.1.154 [Port] 0 [Flags] 2 [Guid] 533463412 [EditorId] 533463412 [Version] 1048832 [Id] OSXEditor(0,Alexiss-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8079971072] Host "[IP] 192.168.1.154 [Port] 0 [Flags] 2 [Guid] 3289160397 [EditorId] 3289160397 [Version] 1048832 [Id] OSXEditor(0,Alexiss-MBP) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 77.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 90.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.30f1 (b4360d7cdac4)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -74,39 +74,39 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.30f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56438
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.30f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001271 seconds.
+Registered in 0.000618 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 76.44 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 80.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.409 seconds
+- Completed reload, in  0.397 seconds
 Domain Reload Profiling:
-	ReloadAssembly (410ms)
-		BeginReloadAssembly (57ms)
+	ReloadAssembly (398ms)
+		BeginReloadAssembly (39ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (298ms)
-			LoadAssemblies (58ms)
+		EndReloadAssembly (304ms)
+			LoadAssemblies (39ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (183ms)
+			SetupLoadedEditorAssemblies (188ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (76ms)
+				RefreshPlugins (80ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (77ms)
+				ProcessInitializeOnLoadAttributes (78ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -114,20 +114,19 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005187 seconds.
+Registered in 0.024913 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 73.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 81.25 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Getting credential for https://api.nuget.org/v3/index.json
-Getting installed packages took 20 ms
-Already imported libs: UnityEngine, UnityEngine.AIModule, UnityEngine.AccessibilityModule, UnityEngine.AndroidJNIModule, UnityEngine.AnimationModule, UnityEngine.AssetBundleModule, UnityEngine.AudioModule, UnityEngine.ClothModule, UnityEngine.CoreModule, UnityEngine.CrashReportingModule, UnityEngine.DSPGraphModule, UnityEngine.DirectorModule, UnityEngine.GIModule, UnityEngine.GameCenterModule, UnityEngine.GridModule, UnityEngine.HotReloadModule, UnityEngine.IMGUIModule, UnityEngine.ImageConversionModule, UnityEngine.InputModule, UnityEngine.InputLegacyModule, UnityEngine.JSONSerializeModule, UnityEngine.LocalizationModule, UnityEngine.ParticleSystemModule, UnityEngine.PerformanceReportingModule, UnityEngine.PhysicsModule, UnityEngine.Physics2DModule, UnityEngine.ProfilerModule, UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule, UnityEngine.ScreenCaptureModule, UnityEngine.SharedInternalsModule, UnityEngine.SpriteMaskModule, UnityEngine.SpriteShapeModule, UnityEngine.StreamingModule, UnityEngine.SubstanceModule, UnityEngine.SubsystemsModule, UnityEngine.TLSModule, UnityEngine.TerrainModule, UnityEngine.TerrainPhysicsModule, UnityEngine.TextCoreFontEngineModule, UnityEngine.TextCoreTextEngineModule, UnityEngine.TextRenderingModule, UnityEngine.TilemapModule, UnityEngine.UIModule, UnityEngine.UIElementsModule, UnityEngine.UIElementsNativeModule, UnityEngine.UNETModule, UnityEngine.UmbraModule, UnityEngine.UnityAnalyticsModule, UnityEngine.UnityAnalyticsCommonModule, UnityEngine.UnityConnectModule, UnityEngine.UnityCurlModule, UnityEngine.UnityTestProtocolModule, UnityEngine.UnityWebRequestModule, UnityEngine.UnityWebRequestAssetBundleModule, UnityEngine.UnityWebRequestAudioModule, UnityEngine.UnityWebRequestTextureModule, UnityEngine.UnityWebRequestWWWModule, UnityEngine.VFXModule, UnityEngine.VRModule, UnityEngine.VehiclesModule, UnityEngine.VideoModule, UnityEngine.WebGLModule, UnityEngine.WindModule, UnityEngine.XRModule, nunit.framework, netstandard, Microsoft.Win32.Primitives, System.AppContext, System.Buffers, System.Collections.Concurrent, System.Collections.NonGeneric, System.Collections.Specialized, System.Collections, System.ComponentModel.EventBasedAsync, System.ComponentModel.Primitives, System.ComponentModel.TypeConverter, System.ComponentModel, System.Console, System.Data.Common, System.Diagnostics.Contracts, System.Diagnostics.Debug, System.Diagnostics.FileVersionInfo, System.Diagnostics.Process, System.Diagnostics.StackTrace, System.Diagnostics.TextWriterTraceListener, System.Diagnostics.Tools, System.Diagnostics.TraceSource, System.Diagnostics.Tracing, System.Drawing.Primitives, System.Dynamic.Runtime, System.Globalization.Calendars, System.Globalization.Extensions, System.Globalization, System.IO.Compression.ZipFile, System.IO.Compression, System.IO.FileSystem.DriveInfo, System.IO.FileSystem.Primitives, System.IO.FileSystem.Watcher, System.IO.FileSystem, System.IO.IsolatedStorage, System.IO.MemoryMappedFiles, System.IO.Pipes, System.IO.UnmanagedMemoryStream, System.IO, System.Linq.Expressions, System.Linq.Parallel, System.Linq.Queryable, System.Linq, System.Memory, System.Net.Http, System.Net.NameResolution, System.Net.NetworkInformation, System.Net.Ping, System.Net.Primitives, System.Net.Requests, System.Net.Security, System.Net.Sockets, System.Net.WebHeaderCollection, System.Net.WebSockets.Client, System.Net.WebSockets, System.Numerics.Vectors, System.ObjectModel, System.Reflection.DispatchProxy, System.Reflection.Emit.ILGeneration, System.Reflection.Emit.Lightweight, System.Reflection.Emit, System.Reflection.Extensions, System.Reflection.Primitives, System.Reflection, System.Resources.Reader, System.Resources.ResourceManager, System.Resources.Writer, System.Runtime.CompilerServices.VisualC, System.Runtime.Extensions, System.Runtime.Handles, System.Runtime.InteropServices.RuntimeInformation, System.Runtime.InteropServices, System.Runtime.Numerics, System.Runtime.Serialization.Formatters, System.Runtime.Serialization.Json, System.Runtime.Serialization.Primitives, System.Runtime.Serialization.Xml, System.Runtime, System.Security.Claims, System.Security.Cryptography.Algorithms, System.Security.Cryptography.Csp, System.Security.Cryptography.Encoding, System.Security.Cryptography.Primitives, System.Security.Cryptography.X509Certificates, System.Security.Principal, System.Security.SecureString, System.Text.Encoding.Extensions, System.Text.Encoding, System.Text.RegularExpressions, System.Threading.Overlapped, System.Threading.Tasks.Extensions, System.Threading.Tasks.Parallel, System.Threading.Tasks, System.Threading.Thread, System.Threading.ThreadPool, System.Threading.Timer, System.Threading, System.ValueTuple, System.Xml.ReaderWriter, System.Xml.XDocument, System.Xml.XPath.XDocument, System.Xml.XPath, System.Xml.XmlDocument, System.Xml.XmlSerializer, System.Runtime.InteropServices.WindowsRuntime, System.ComponentModel.Composition, System.Core, System.Data, System.Drawing, System.IO.Compression.FileSystem, System.Net, System.Numerics, System.Runtime.Serialization, System.ServiceModel.Web, System.Transactions, System.Web, System.Windows, System.Xml.Linq, System.Xml.Serialization, System.Xml, System, mscorlib, Unity.Burst.Cecil.Pdb, Unity.Burst.Unsafe, Unity.Burst.Cecil.Mdb, Unity.Burst.Cecil, Unity.Burst.Cecil.Rocks, Unity.VisualScripting.Antlr3.Runtime, Unity.VisualScripting.Core, UnityEngine.UI, Unity.VisualScripting.Flow, Unity.2D.Tilemap.Extras, Unity.InternalAPIEngineBridge.001, Unity.2D.PixelPerfect, Unity.Timeline, Unity.TextMeshPro, Unity.Mathematics, Unity.2D.IK.Runtime, Unity.Burst, Unity.2D.Animation.Runtime, Unity.2D.Common.Runtime, Unity.2D.SpriteShape.Runtime, Unity.VisualScripting.State, NETStandard.Library, Microsoft.NETCore.Platforms, Microsoft.CSharp
+Getting installed packages took 65 ms
+Already imported libs: UnityEngine, UnityEngine.AIModule, UnityEngine.AccessibilityModule, UnityEngine.AndroidJNIModule, UnityEngine.AnimationModule, UnityEngine.AssetBundleModule, UnityEngine.AudioModule, UnityEngine.ClothModule, UnityEngine.CoreModule, UnityEngine.CrashReportingModule, UnityEngine.DSPGraphModule, UnityEngine.DirectorModule, UnityEngine.GIModule, UnityEngine.GameCenterModule, UnityEngine.GridModule, UnityEngine.HotReloadModule, UnityEngine.IMGUIModule, UnityEngine.ImageConversionModule, UnityEngine.InputModule, UnityEngine.InputLegacyModule, UnityEngine.JSONSerializeModule, UnityEngine.LocalizationModule, UnityEngine.ParticleSystemModule, UnityEngine.PerformanceReportingModule, UnityEngine.PhysicsModule, UnityEngine.Physics2DModule, UnityEngine.ProfilerModule, UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule, UnityEngine.ScreenCaptureModule, UnityEngine.SharedInternalsModule, UnityEngine.SpriteMaskModule, UnityEngine.SpriteShapeModule, UnityEngine.StreamingModule, UnityEngine.SubstanceModule, UnityEngine.SubsystemsModule, UnityEngine.TLSModule, UnityEngine.TerrainModule, UnityEngine.TerrainPhysicsModule, UnityEngine.TextCoreFontEngineModule, UnityEngine.TextCoreTextEngineModule, UnityEngine.TextRenderingModule, UnityEngine.TilemapModule, UnityEngine.UIModule, UnityEngine.UIElementsModule, UnityEngine.UIElementsNativeModule, UnityEngine.UNETModule, UnityEngine.UmbraModule, UnityEngine.UnityAnalyticsModule, UnityEngine.UnityAnalyticsCommonModule, UnityEngine.UnityConnectModule, UnityEngine.UnityCurlModule, UnityEngine.UnityTestProtocolModule, UnityEngine.UnityWebRequestModule, UnityEngine.UnityWebRequestAssetBundleModule, UnityEngine.UnityWebRequestAudioModule, UnityEngine.UnityWebRequestTextureModule, UnityEngine.UnityWebRequestWWWModule, UnityEngine.VFXModule, UnityEngine.VRModule, UnityEngine.VehiclesModule, UnityEngine.VideoModule, UnityEngine.WebGLModule, UnityEngine.WindModule, UnityEngine.XRModule, nunit.framework, netstandard, Microsoft.Win32.Primitives, System.AppContext, System.Buffers, System.Collections.Concurrent, System.Collections.NonGeneric, System.Collections.Specialized, System.Collections, System.ComponentModel.EventBasedAsync, System.ComponentModel.Primitives, System.ComponentModel.TypeConverter, System.ComponentModel, System.Console, System.Data.Common, System.Diagnostics.Contracts, System.Diagnostics.Debug, System.Diagnostics.FileVersionInfo, System.Diagnostics.Process, System.Diagnostics.StackTrace, System.Diagnostics.TextWriterTraceListener, System.Diagnostics.Tools, System.Diagnostics.TraceSource, System.Diagnostics.Tracing, System.Drawing.Primitives, System.Dynamic.Runtime, System.Globalization.Calendars, System.Globalization.Extensions, System.Globalization, System.IO.Compression.ZipFile, System.IO.Compression, System.IO.FileSystem.DriveInfo, System.IO.FileSystem.Primitives, System.IO.FileSystem.Watcher, System.IO.FileSystem, System.IO.IsolatedStorage, System.IO.MemoryMappedFiles, System.IO.Pipes, System.IO.UnmanagedMemoryStream, System.IO, System.Linq.Expressions, System.Linq.Parallel, System.Linq.Queryable, System.Linq, System.Memory, System.Net.Http, System.Net.NameResolution, System.Net.NetworkInformation, System.Net.Ping, System.Net.Primitives, System.Net.Requests, System.Net.Security, System.Net.Sockets, System.Net.WebHeaderCollection, System.Net.WebSockets.Client, System.Net.WebSockets, System.Numerics.Vectors, System.ObjectModel, System.Reflection.DispatchProxy, System.Reflection.Emit.ILGeneration, System.Reflection.Emit.Lightweight, System.Reflection.Emit, System.Reflection.Extensions, System.Reflection.Primitives, System.Reflection, System.Resources.Reader, System.Resources.ResourceManager, System.Resources.Writer, System.Runtime.CompilerServices.VisualC, System.Runtime.Extensions, System.Runtime.Handles, System.Runtime.InteropServices.RuntimeInformation, System.Runtime.InteropServices, System.Runtime.Numerics, System.Runtime.Serialization.Formatters, System.Runtime.Serialization.Json, System.Runtime.Serialization.Primitives, System.Runtime.Serialization.Xml, System.Runtime, System.Security.Claims, System.Security.Cryptography.Algorithms, System.Security.Cryptography.Csp, System.Security.Cryptography.Encoding, System.Security.Cryptography.Primitives, System.Security.Cryptography.X509Certificates, System.Security.Principal, System.Security.SecureString, System.Text.Encoding.Extensions, System.Text.Encoding, System.Text.RegularExpressions, System.Threading.Overlapped, System.Threading.Tasks.Extensions, System.Threading.Tasks.Parallel, System.Threading.Tasks, System.Threading.Thread, System.Threading.ThreadPool, System.Threading.Timer, System.Threading, System.ValueTuple, System.Xml.ReaderWriter, System.Xml.XDocument, System.Xml.XPath.XDocument, System.Xml.XPath, System.Xml.XmlDocument, System.Xml.XmlSerializer, System.Runtime.InteropServices.WindowsRuntime, System.ComponentModel.Composition, System.Core, System.Data, System.Drawing, System.IO.Compression.FileSystem, System.Net, System.Numerics, System.Runtime.Serialization, System.ServiceModel.Web, System.Transactions, System.Web, System.Windows, System.Xml.Linq, System.Xml.Serialization, System.Xml, System, mscorlib, Unity.Burst.Unsafe, Unity.VisualScripting.Antlr3.Runtime, Unity.Burst.Cecil.Pdb, Unity.Burst.Cecil.Mdb, Unity.Burst.Cecil, Unity.Burst.Cecil.Rocks, Unity.VisualScripting.Core, UnityEngine.UI, Unity.VisualScripting.Flow, Unity.2D.Tilemap.Extras, Unity.InternalAPIEngineBridge.001, Unity.2D.PixelPerfect, Unity.Timeline, Unity.TextMeshPro, Unity.Mathematics, Unity.2D.IK.Runtime, Unity.Burst, Unity.2D.Animation.Runtime, Unity.2D.Common.Runtime, Unity.2D.SpriteShape.Runtime, Unity.VisualScripting.State, NETStandard.Library, Microsoft.NETCore.Platforms, Microsoft.CSharp
 Already imported editor only libraries: System.CodeDom
-Is package 'AddMVC' already imported? False
 Is package 'Microsoft.AspNet.Mvc' already imported? False
 Is package 'Microsoft.AspNet.Razor' already imported? False
 Is package 'Microsoft.AspNet.WebApi' already imported? False
@@ -135,73 +134,158 @@ Is package 'Microsoft.AspNet.WebApi.Client' already imported? False
 Is package 'Microsoft.AspNet.WebApi.Core' already imported? False
 Is package 'Microsoft.AspNet.WebApi.WebHost' already imported? False
 Is package 'Microsoft.AspNet.WebPages' already imported? False
+Is package 'Microsoft.AspNetCore' already imported? False
+Is package 'Microsoft.AspNetCore.All' already imported? False
+Is package 'Microsoft.AspNetCore.Antiforgery' already imported? False
+Is package 'Microsoft.AspNetCore.App' already imported? False
+Is package 'Microsoft.AspNetCore.Authentication.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.Authentication.Core' already imported? False
+Is package 'Microsoft.AspNetCore.Authorization' already imported? False
+Is package 'Microsoft.AspNetCore.Authorization.Policy' already imported? False
+Is package 'Microsoft.AspNetCore.Connections.Abstractions' already imported? False
 Is package 'Microsoft.AspNetCore.CookiePolicy' already imported? False
+Is package 'Microsoft.AspNetCore.Cors' already imported? False
+Is package 'Microsoft.AspNetCore.Cryptography.Internal' already imported? False
+Is package 'Microsoft.AspNetCore.DataProtection' already imported? False
+Is package 'Microsoft.AspNetCore.DataProtection.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.Diagnostics' already imported? False
+Is package 'Microsoft.AspNetCore.Diagnostics.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.HostFiltering' already imported? False
 Is package 'Microsoft.AspNetCore.Hosting' already imported? False
 Is package 'Microsoft.AspNetCore.Hosting.Abstractions' already imported? False
 Is package 'Microsoft.AspNetCore.Hosting.Server.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.Html.Abstractions' already imported? False
 Is package 'Microsoft.AspNetCore.Http' already imported? False
 Is package 'Microsoft.AspNetCore.Http.Abstractions' already imported? False
 Is package 'Microsoft.AspNetCore.Http.Extensions' already imported? False
 Is package 'Microsoft.AspNetCore.Http.Features' already imported? False
+Is package 'Microsoft.AspNetCore.HttpOverrides' already imported? False
+Is package 'Microsoft.AspNetCore.HttpsPolicy' already imported? False
+Is package 'Microsoft.AspNetCore.JsonPatch' already imported? False
+Is package 'Microsoft.AspNetCore.Localization' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc' already imported? False
 Is package 'Microsoft.AspNetCore.Mvc.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.Analyzers' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.ApiExplorer' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.Core' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.Cors' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.DataAnnotations' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.Formatters.Json' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.Localization' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.Razor' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.Razor.Extensions' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.RazorPages' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.TagHelpers' already imported? False
+Is package 'Microsoft.AspNetCore.Mvc.ViewFeatures' already imported? False
+Is package 'Microsoft.AspNetCore.Razor' already imported? False
+Is package 'Microsoft.AspNetCore.Razor.Design' already imported? False
+Is package 'Microsoft.AspNetCore.Razor.Language' already imported? False
+Is package 'Microsoft.AspNetCore.Razor.Runtime' already imported? False
+Is package 'Microsoft.AspNetCore.ResponseCaching.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.Routing' already imported? False
 Is package 'Microsoft.AspNetCore.Routing.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.Server.IIS' already imported? False
+Is package 'Microsoft.AspNetCore.Server.IISIntegration' already imported? False
+Is package 'Microsoft.AspNetCore.Server.Kestrel' already imported? False
+Is package 'Microsoft.AspNetCore.Server.Kestrel.Core' already imported? False
+Is package 'Microsoft.AspNetCore.Server.Kestrel.Https' already imported? False
+Is package 'Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions' already imported? False
+Is package 'Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets' already imported? False
+Is package 'Microsoft.AspNetCore.StaticFiles' already imported? False
 Is package 'Microsoft.AspNetCore.WebUtilities' already imported? False
+Is package 'Microsoft.Bcl.AsyncInterfaces' already imported? False
+Is package 'Microsoft.CodeAnalysis.Analyzers' already imported? False
+Is package 'Microsoft.CodeAnalysis.CSharp' already imported? False
+Is package 'Microsoft.CodeAnalysis.Common' already imported? False
+Is package 'Microsoft.CodeAnalysis.Razor' already imported? False
+Is package 'Microsoft.DotNet.PlatformAbstractions' already imported? False
+Is package 'Microsoft.Extensions.Caching.Abstractions' already imported? False
+Is package 'Microsoft.Extensions.Caching.Memory' already imported? False
 Is package 'Microsoft.Extensions.Configuration' already imported? False
 Is package 'Microsoft.Extensions.Configuration.Abstractions' already imported? False
 Is package 'Microsoft.Extensions.Configuration.Binder' already imported? False
+Is package 'Microsoft.Extensions.Configuration.CommandLine' already imported? False
 Is package 'Microsoft.Extensions.Configuration.EnvironmentVariables' already imported? False
 Is package 'Microsoft.Extensions.Configuration.FileExtensions' already imported? False
+Is package 'Microsoft.Extensions.Configuration.Json' already imported? False
+Is package 'Microsoft.Extensions.Configuration.UserSecrets' already imported? False
 Is package 'Microsoft.Extensions.DependencyInjection' already imported? False
 Is package 'Microsoft.Extensions.DependencyInjection.Abstractions' already imported? False
+Is package 'Microsoft.Extensions.DependencyModel' already imported? False
 Is package 'Microsoft.Extensions.FileProviders.Abstractions' already imported? False
+Is package 'Microsoft.Extensions.FileProviders.Composite' already imported? False
 Is package 'Microsoft.Extensions.FileProviders.Physical' already imported? False
 Is package 'Microsoft.Extensions.FileSystemGlobbing' already imported? False
+Is package 'Microsoft.Extensions.Hosting' already imported? False
 Is package 'Microsoft.Extensions.Hosting.Abstractions' already imported? False
+Is package 'Microsoft.Extensions.Localization' already imported? False
+Is package 'Microsoft.Extensions.Localization.Abstractions' already imported? False
 Is package 'Microsoft.Extensions.Logging' already imported? False
 Is package 'Microsoft.Extensions.Logging.Abstractions' already imported? False
+Is package 'Microsoft.Extensions.Logging.Configuration' already imported? False
+Is package 'Microsoft.Extensions.Logging.Console' already imported? False
+Is package 'Microsoft.Extensions.Logging.Debug' already imported? False
+Is package 'Microsoft.Extensions.Logging.EventLog' already imported? False
+Is package 'Microsoft.Extensions.Logging.EventSource' already imported? False
 Is package 'Microsoft.Extensions.ML' already imported? False
 Is package 'Microsoft.Extensions.ObjectPool' already imported? False
 Is package 'Microsoft.Extensions.Options' already imported? False
+Is package 'Microsoft.Extensions.Options.ConfigurationExtensions' already imported? False
 Is package 'Microsoft.Extensions.Primitives' already imported? False
+Is package 'Microsoft.Extensions.WebEncoders' already imported? False
 Is package 'Microsoft.ML' already imported? False
 Is package 'Microsoft.ML.CpuMath' already imported? False
 Is package 'Microsoft.ML.DataView' already imported? False
 Is package 'Microsoft.Net.Http.Headers' already imported? False
 Is package 'Microsoft.Web.Infrastructure' already imported? False
+Is package 'Microsoft.Win32.Registry' already imported? False
 Is package 'Newtonsoft.Json' already imported? False
 Is package 'Newtonsoft.Json.Bson' already imported? False
+Is package 'Otc.ComponentModel.Annotations' already imported? False
 Is package 'System.CodeDom' already imported? False
 Is package 'System.Collections.Immutable' already imported? False
+Is package 'System.ComponentModel.Annotations' already imported? False
 Is package 'System.Diagnostics.DiagnosticSource' already imported? False
+Is package 'System.Diagnostics.EventLog' already imported? False
+Is package 'System.IO.Pipelines' already imported? False
 Is package 'System.Reflection.Metadata' already imported? False
+Is package 'System.Reflection.TypeExtensions' already imported? False
 Is package 'System.Runtime.CompilerServices.Unsafe' already imported? False
+Is package 'System.Security.AccessControl' already imported? False
+Is package 'System.Security.Cryptography.Cng' already imported? False
+Is package 'System.Security.Cryptography.Pkcs' already imported? False
+Is package 'System.Security.Cryptography.Xml' already imported? False
+Is package 'System.Security.Permissions' already imported? False
+Is package 'System.Security.Principal.Windows' already imported? False
+Is package 'System.Text.Encoding.CodePages' already imported? False
 Is package 'System.Text.Encodings.Web' already imported? False
+Is package 'System.Text.Json' already imported? False
 Is package 'System.Threading.Channels' already imported? False
 No packages need restoring.
-Restoring packages took 84 ms
+Restoring packages took 183 ms
 Mono: successfully reloaded assembly
-- Completed reload, in  1.242 seconds
+- Completed reload, in  1.498 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1242ms)
-		BeginReloadAssembly (59ms)
+	ReloadAssembly (1498ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (1123ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (1364ms)
+			LoadAssemblies (52ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (193ms)
+			SetupTypeCache (285ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (816ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (955ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (2ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (657ms)
+				RefreshPlugins (81ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (787ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -212,12 +296,252 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3908 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 86 unused Assets / (41.1 KB). Loaded Objects now: 4316.
-Memory consumption went from 142.3 MB to 142.2 MB.
-Total: 2.869333 ms (FindLiveObjects: 0.098458 ms CreateObjectMapping: 0.047875 ms MarkObjects: 2.652458 ms  DeleteObjects: 0.069666 ms)
+Unloading 4074 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 253 unused Assets / (303.4 KB). Loaded Objects now: 4315.
+Memory consumption went from 148.5 MB to 148.2 MB.
+Total: 3.780792 ms (FindLiveObjects: 0.117542 ms CreateObjectMapping: 0.049791 ms MarkObjects: 3.473458 ms  DeleteObjects: 0.139125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022299 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29f0a3000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1056ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (893ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (512ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (447ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4013 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 242 unused Assets / (29.1 KB). Loaded Objects now: 4318.
+Memory consumption went from 146.4 MB to 146.3 MB.
+Total: 2.334000 ms (FindLiveObjects: 0.118083 ms CreateObjectMapping: 0.051167 ms MarkObjects: 2.131334 ms  DeleteObjects: 0.032791 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024894 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fb2b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1086ms)
+		BeginReloadAssembly (90ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (523ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (454ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4013 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 242 unused Assets / (29.1 KB). Loaded Objects now: 4321.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.514583 ms (FindLiveObjects: 0.118875 ms CreateObjectMapping: 0.050833 ms MarkObjects: 2.298583 ms  DeleteObjects: 0.045084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024433 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fa9f000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (89ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (920ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (458ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4013 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 242 unused Assets / (29.1 KB). Loaded Objects now: 4324.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.248042 ms (FindLiveObjects: 0.125167 ms CreateObjectMapping: 0.052875 ms MarkObjects: 2.027750 ms  DeleteObjects: 0.041625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.021899 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16fa9f000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (509ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (445ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4012 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 243 unused Assets / (29.2 KB). Loaded Objects now: 4326.
+Memory consumption went from 146.4 MB to 146.4 MB.
+Total: 2.223458 ms (FindLiveObjects: 0.104292 ms CreateObjectMapping: 0.052708 ms MarkObjects: 2.031417 ms  DeleteObjects: 0.034041 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -233,49 +557,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 187915.646306 seconds.
-  path: Assets/BinaryClassification_Sentiment_Razor/Images/web-app.png
-  artifactKey: Guid(0a21fbe1e94d7411dae6ac3c9019728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 192848.603618 seconds.
+  path: Assets/Scripts/MazeRenderer.cs
+  artifactKey: Guid(f7e15b40de7884dae818cf96cb66719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/BinaryClassification_Sentiment_Razor/Images/web-app.png using Guid(0a21fbe1e94d7411dae6ac3c9019728d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ad4055ff8a7a97787b0da767982b6f') in 0.402922 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.338862 seconds.
-  path: Assets/BinaryClassification_Sentiment_Razor/SentimentRazor/wwwroot/lib
-  artifactKey: Guid(5d8b1479668e24005b7e2a70ef9f6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/BinaryClassification_Sentiment_Razor/SentimentRazor/wwwroot/lib using Guid(5d8b1479668e24005b7e2a70ef9f6f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7530469a28f6a21a17101783eda55c43') in 0.001844 seconds 
+Start importing Assets/Scripts/MazeRenderer.cs using Guid(f7e15b40de7884dae818cf96cb66719b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a6002c1344aca9b16e57cceb2ef2696') in 0.043295 seconds 
 Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 431.773402 seconds.
-  path: Assets/Packages/AddMVC.1.0.0
-  artifactKey: Guid(3f00bcd504ef647a0a2150dc6a2c2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/AddMVC.1.0.0 using Guid(3f00bcd504ef647a0a2150dc6a2c2441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901a25725e74fcd22c1995ca89ea1ae7') in 0.001111 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 3.128268 seconds.
-  path: Assets/Packages/AddMVC.1.0.0/Models
-  artifactKey: Guid(4c36c53c44b044c2c9767653df6db0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/AddMVC.1.0.0/Models using Guid(4c36c53c44b044c2c9767653df6db0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784b3bd6639f5537895eb60fceda1668') in 0.001404 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.083059 seconds.
-  path: Assets/Packages/AddMVC.1.0.0/Models/AccountModels.cs
-  artifactKey: Guid(1df1240417d3941abb55b58ace51c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/AddMVC.1.0.0/Models/AccountModels.cs using Guid(1df1240417d3941abb55b58ace51c4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b12e2d0aeaa250fd3f6b513dd91947') in 0.115914 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 19.558990 seconds.
-  path: Assets/Packages/AddMVC.1.0.0/AddMVC.nuspec
-  artifactKey: Guid(4d05e6de84fcd450b9a0216bb0bdcb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Packages/AddMVC.1.0.0/AddMVC.nuspec using Guid(4d05e6de84fcd450b9a0216bb0bdcb0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0878a83d2d89d41bb6b8408e601d361a') in 0.044243 seconds 
-Number of asset objects unloaded after import = 1

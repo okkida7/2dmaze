@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638323316780000000
-    m_Hash: 3542795954
+      ticks: 638323369560000000
+    m_Hash: 2611712391
   m_LockFileStatus:
     m_FilePath: /Users/alexisjin/Documents/GitHub/2dmaze/2dmaze/2dmaze/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638323316780000000
-    m_Hash: 497815725
+      ticks: 638323369560000000
+    m_Hash: 3202377254
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,54 +22,6 @@ m_LocalPackages:
 m_ProjectPath: /Users/alexisjin/Documents/GitHub/2dmaze/2dmaze/2dmaze/Packages
 m_EditorVersion: 2021.3.30f1 (b4360d7cdac4)
 m_ResolvedPackages:
-- packageId: com.github-glitchenzo.nugetforunity@https://github.com/GlitchEnzo/NuGetForUnity.git?path=/src/NuGetForUnity
-  testable: 0
-  isDirectDependency: 1
-  version: 3.1.3
-  source: 5
-  resolvedPath: /Users/alexisjin/Documents/GitHub/2dmaze/2dmaze/2dmaze/Library/PackageCache/com.github-glitchenzo.nugetforunity@ad5eac259a
-  assetPath: Packages/com.github-glitchenzo.nugetforunity
-  name: com.github-glitchenzo.nugetforunity
-  displayName: NuGetForUnity
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: A NuGet Package Manager for Unity
-  status: 0
-  errors: []
-  versions:
-    all: []
-    compatible: []
-    verified: 
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - nuget
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: https://github.com/GlitchEnzo/NuGetForUnity
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
 - packageId: com.unity.collab-proxy@2.0.7
   testable: 0
   isDirectDependency: 1

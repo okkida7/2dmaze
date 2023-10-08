@@ -429,7 +429,6 @@
 -r:"Assets/Packages/System.Text.Encodings.Web.7.0.0/lib/netstandard2.0/System.Text.Encodings.Web.dll"
 -r:"Assets/Packages/System.Text.Json.7.0.0/lib/netstandard2.0/System.Text.Json.dll"
 -r:"Assets/Packages/System.Threading.Channels.4.7.1/lib/netstandard2.0/System.Threading.Channels.dll"
--r:"Library/Bee/artifacts/2000b0aE.dag/NuGetForUnity.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/PsdPlugin.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Animation.Editor.ref.dll"
 -r:"Library/Bee/artifacts/2000b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
@@ -572,7 +571,6 @@
 "Assets/Scripts/MazeGenerator.cs"
 "Assets/Scripts/MazeRenderer.cs"
 "Assets/Scripts/SentimentAnalysisClient.cs"
-"Assets/Scripts/SentimentAnalysisController.cs"
 -langversion:9.0
 
 /deterministic

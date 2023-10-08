@@ -1,0 +1,3 @@
+flask
+textblob
+flask_cors
