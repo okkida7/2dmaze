@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MazeGenerator : MonoBehaviour
 {
@@ -11,7 +12,9 @@ public class MazeGenerator : MonoBehaviour
     Vector2Int currentCell;
     List<Vector2Int> deadEnds = new List<Vector2Int>();
     public Vector2Int doorPosition;
-    
+    public GameObject player;
+    public float exitThreshold = 1.0f;
+    private Vector3 doorPositionSaver;
     public MazeCell[,] GetMaze()
     {
         maze = new MazeCell[mazeWidth, mazeHeight];
@@ -188,10 +191,11 @@ public class MazeGenerator : MonoBehaviour
         }
 
         Vector3 doorPosition = farCells[Random.Range(0, farCells.Count)];
+        doorPositionSaver = doorPosition;
+        Debug.Log("Door position: " + doorPosition);
 
         // Adjusting the door's position, rotation, and wall data based on the edge.
-        Quaternion doorRotation = Quaternion.identity; 
-
+        Quaternion doorRotation = Quaternion.identity;
         maze[(int)doorPosition.x, (int)doorPosition.y].leftWall = false;
         maze[(int)doorPosition.x, (int)doorPosition.y].rightWall = false;
         maze[(int)doorPosition.x, (int)doorPosition.y].bottomWall = false;
@@ -219,11 +223,6 @@ public class MazeGenerator : MonoBehaviour
 
 
     void Start()
-    {
-
-    }
-
-    void Update()
     {
 
     }
