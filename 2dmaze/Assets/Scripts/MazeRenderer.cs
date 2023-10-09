@@ -9,7 +9,7 @@ public class MazeRenderer : MonoBehaviour
     public float cellSize = 1f;
     private Vector2Int doorPosition;
 
-    private void Start()
+    private void Awake()
     {
         MazeCell[,] maze = mazeGenerator.GetMaze();
         
